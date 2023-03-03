@@ -88,7 +88,7 @@ section.menu nav ul.menu-list {
 
 .svg {
   padding-top: 1rem;
-margin-left: 1.5rem;
+margin-left: 0.4rem;
   width:10rem; 
   height:2rem;
   overflow:hidden;
@@ -621,6 +621,10 @@ section.footer div.rodape {
     section.title img.profile {
         width: 368px;
 
+    }
+
+    .svg {
+        margin-left: 2rem;
     }
 
     section.title div.title-div div.title-container ul {
