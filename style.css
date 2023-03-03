@@ -88,7 +88,7 @@ section.menu nav ul.menu-list {
 
 .svg {
   padding-top: 1rem;
-
+margin-left: 1.5rem;
   width:10rem; 
   height:2rem;
   overflow:hidden;
@@ -151,7 +151,7 @@ section.about {
     height: 19rem;
     border-radius: 10px;
     border-style: hidden;
-    background-color: #EAF2FD;
+    background-color: white;
 }
 
 /*sobre mim* */
@@ -162,6 +162,7 @@ section.about {
     padding-top: 3rem;
     color: white;
     line-height: 2.2rem;
+    
 }
 section.about div.about-container p {
     width: 60rem;
@@ -169,7 +170,8 @@ section.about div.about-container p {
     font-size: 1.2rem;
     line-height: 1.4rem;
     text-align:justify;
-  
+    background-color: white;
+  color: black;
 }
 
 section.about div.about-container img {
@@ -427,7 +429,8 @@ section.footer div.rodape {
 
 /*                   desktop acima */
 
-@media screen and (min-width: 374px) {
+
+@media screen and (min-width: 310px) and (max-width:470px) {
 
     .tudo {
         margin: 32px 32px;
@@ -458,7 +461,7 @@ section.footer div.rodape {
         margin-left: -2rem;
     }
 
-    #sobremim {
+    .sobremim {
         font-size: 1rem;
     }
 
@@ -578,70 +581,6 @@ section.footer div.rodape {
 }
 
 
-
-
-
-
-@media (min-width: 700px) {
-
-    .tudo {
-        margin: 32px 32px;
-    }
-
-    /*title*/
-    section.title {
-        margin-bottom: 32px;
-    }
-    .sobremim-inicio, .about-container {
-        text-size-adjust:initial;
-        text-align: start;
-    }
-    div.title-div {
-        justify-content: space-around;
-        align-content: flex-start;
-        display: flex;
-        flex-direction: row-reverse;
-    }
-
-    div.title-container {
-        width: auto;
-        text-rendering: geometricPrecision;
-    
-
-    }
-
-    section.title img.profile {
-        width: 157px;
-        margin-left: 32px;
-    }
-
-    /*experiências acadêmicas*/
-
-    section.academic div.courses {
-        display: flex;
-        justify-content: space-around;
-    }
-
-    section.academic div.courses-box {
-        width: 18rem;
-    }
-
-    section.academic div.courses ul li.course-img img {
-        width: 50%;
-    }
-
-    /*expeirência profissional*/
-
-    section.experience div.experiencia-box {
-        display: flex;
-        flex-direction: column;
-    }
-
-    section.experience div.experiencia-box img {
-        width: 100%;
-    }
-
-}
 
 @media screen and (min-width: 1000px) {
 
@@ -819,6 +758,7 @@ section.footer div.rodape {
     }
 }
 
+
 @media (min-width: 1440px) {
 
     .tudo {
@@ -854,3 +794,128 @@ section.footer div.rodape {
         padding: 64px 172px;
     }
 }
+
+@media (min-width: 700px) {
+
+    .tudo {
+        margin: 32px 32px;
+    }
+
+    /*title*/
+    section.title {
+        margin-bottom: 32px;
+    }
+    .sobremim-inicio, .about-container {
+        text-size-adjust:initial;
+        text-align: start;
+    }
+    div.title-div {
+        justify-content: space-around;
+        align-content: flex-start;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    div.title-container {
+        width: auto;
+        text-rendering: geometricPrecision;
+    
+
+    }
+
+    section.title img.profile {
+        width: 20rem;
+        margin-left: 32px;
+    }
+
+    /*experiências acadêmicas*/
+
+    section.academic div.courses {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    section.academic div.courses-box {
+        width: 18rem;
+    }
+
+    section.academic div.courses ul li.course-img img {
+        width: 50%;
+    }
+
+    /*expeirência profissional*/
+
+    section.experience div.experiencia-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section.experience div.experiencia-box img {
+        width: 100%;
+    }
+    .cel-icon {
+        width: 1rem;
+        margin-left: 35rem;
+        margin-bottom: -2.4rem;
+    }
+    
+    .email-icon {
+        width: 1rem;
+        margin-left: 35rem;
+        margin-bottom: -2.2rem;
+    }
+    
+    
+    .celular-contato {
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem;
+        color: white;
+    }
+    
+    .email-contato {
+        display: flex;
+        flex-direction: column;
+         margin-top: 2rem;
+         color: white;
+    }
+    
+    .contato-rodape {
+        color: white;
+    }
+    section.footer {
+        height: 10rem;
+        background-color: #161827;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    section.footer div.rodape {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+    
+    }
+    
+    
+    .contato-footer {
+        padding-top: 10rem;
+        padding-left: 15rem;
+        color: white;
+        width:20rem; 
+        height:10rem;
+        overflow:hidden;
+        background: none;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+      }
+      .contato-footer {
+        width:71%
+      }
+}
+
+
+
